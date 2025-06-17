@@ -57,6 +57,7 @@ For your first milestone, describe what your project is and how you plan to buil
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8W17v3A6jmY?si=norvQOObzwAQvrP6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
+
 - Two lights that light up when the photo sensor detects low light. Two 220 resistors and One 47k resistor. Battery Cage and Disc Battery. Transistor that amplifies the signal.
 - Soldered all of the components to the main weevil board.
 - Soldered a 220 resistor into the 47k place and vice versa so the orginal project did not work. Redid the project because it was too difficult to desolder, but the second time it worked as planned.
