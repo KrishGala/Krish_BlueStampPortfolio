@@ -11,7 +11,7 @@ You should comment out all portions of your portfolio that you have not complete
 |:--:|:--:|:--:|:--:|
 | Krish G | Leigh Highschool | Electrical Engineering | Rising Junior
 
-![Headstone Image](KrishG.HEIC)
+![Headstone Image](KrishG.png)
 
 # Final Milestone
 
