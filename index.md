@@ -51,21 +51,7 @@ For your first milestone, describe what your project is and how you plan to buil
 - Challenges you're facing and solving in your future milestones
 - What your plan is to complete your project
 
-# Weevil Starter Project
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/8W17v3A6jmY?si=norvQOObzwAQvrP6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-
-- Two lights that light up when the photo sensor detects low light. Two 220 resistors and One 47k resistor. Battery Cage and Disc Battery. Transistor that amplifies the signal.
-- Soldered all of the components to the main weevil board.
-- Soldered a 220 resistor into the 47k place and vice versa so the orginal project did not work. Redid the project because it was too difficult to desolder, but the second time it worked as planned.
-- Not sure about the actual project but excited to start working on it.
-
-# Schematics 
-![Weevil Eye Schematic Image](Weevil_Eye-v16-1.png)
-[source](https://cdn.sparkfun.com/datasheets/Kits/Weevil_Eye-v16.pdf)
-
-# Code
+  # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
 
 ```c++
@@ -98,3 +84,18 @@ One of the best parts about Github is that you can view how other people set up 
 - [Example 3](https://arneshkumar.github.io/arneshbluestamp/)
 
 To watch the BSE tutorial on how to create a portfolio, click here.
+
+
+# Weevil Starter Project
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/8W17v3A6jmY?si=norvQOObzwAQvrP6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+
+- Two lights that light up when the photo sensor detects low light. Two 220 resistors and One 47k resistor. Battery Cage and Disc Battery. Transistor that amplifies the signal.
+- Soldered all of the components to the main weevil board.
+- Soldered a 220 resistor into the 47k place and vice versa so the orginal project did not work. Redid the project because it was too difficult to desolder, but the second time it worked as planned.
+- Not sure about the actual project but excited to start working on it.
+
+# Schematics 
+![Weevil Eye Schematic Image](Weevil_Eye-v16-1.png)
+[source](https://cdn.sparkfun.com/datasheets/Kits/Weevil_Eye-v16.pdf)
