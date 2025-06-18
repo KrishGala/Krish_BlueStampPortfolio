@@ -62,7 +62,8 @@ For your first milestone, describe what your project is and how you plan to buil
 - Not sure about the actual project but excited to start working on it.
 
 # Schematics 
-[Weevil Eye Schematic](Weevil_Eye-v16.pdf)
+![Weevil Eye Schematic Image](Weevil_Eye-v16.pdf)
+[source](https://cdn.sparkfun.com/datasheets/Kits/Weevil_Eye-v16.pdf)
 
 # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. 
