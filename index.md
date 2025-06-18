@@ -62,7 +62,7 @@ For your first milestone, describe what your project is and how you plan to buil
 - Not sure about the actual project but excited to start working on it.
 
 # Schematics 
-![Weevil Eye Schematic Image](Weevil_Eye-v16.pdf)
+![Weevil Eye Schematic Image](Weevil_Eye-v16-1.png)
 [source](https://cdn.sparkfun.com/datasheets/Kits/Weevil_Eye-v16.pdf)
 
 # Code
