@@ -37,13 +37,16 @@ work in progress: The Hexapod is a wirelessly controlled six-legged robot with d
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Xi515reuXZE?si=zpE9ugs6TT8V1UEm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-This is my first milestone! So far I've set up the Arduino program and the Processing program for the robot. Processing is the built in controller for the robot while Arduino is used for writing my custom code to control each individual servo. The main part of this milestone is to make sure each of the servos are working correctly, which they do. I first used the given controller for the Hexapod to move the servos. I then moved onto the Arduino program where I tested individual servos. I learned that the servos aren't that strong and they started overheating and smoking after running some code that changes the position of the servos from 0 to 180 and back. This led to some of the servos just shutting down for a bit and then restarting because of the load. So, I changed the parameters of the servo to 20 and 40 for easier use on the servo. But using the actual given controller everything looks to be working correctly and in the next step for building. Looks like I didn't actually need to use the extra servo given in the box. In this milestone I've learned alot about how Arduino and the actual board interact. When I tried to run the Arduino code while the actual controller was running it didn't work. So next time I need to keep that in mind anytime I want to run some code. I also learned how to read the control board where each servo's connection is a specific port that I can call for in Arduino. I'm excited for the next step, building and calibrating because I'll finally have the robot made!
+
+So far I've set up the Arduino program and the Processing program for the robot. Processing is the built in controller for the robot while Arduino is used for writing my custom code to control each individual servo. The main part of this milestone is to make sure each of the servos are working correctly, which they do. I first used the given controller for the Hexapod to move the servos. I then moved onto the Arduino program where I tested individual servos. I learned that the servos aren't that strong and they started overheating and smoking after running some code that changes the position of the servos from 0 to 180 and back. This led to some of the servos just shutting down for a bit and then restarting because of the load. So, I changed the parameters of the servo to 20 and 40 for easier use on the servo. But using the actual given controller everything looks to be working correctly and in the next step for building. Looks like I didn't actually need to use the extra servo given in the box. In this milestone I've learned alot about how Arduino and the actual board interact. When I tried to run the Arduino code while the actual controller was running it didn't work. So next time I need to keep that in mind anytime I want to run some code. I also learned how to read the control board where each servo's connection is a specific port that I can call for in Arduino. I'm excited for the next step, building and calibrating because I'll finally have the robot made!
 
  <!-- # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. -->
 
+# Code
+
+This code allows testing individual servos.  In the setup the attach function just calls for a specific connection on the Arduino board so it knows where to run it. It then basically sweeps the servo from 20 degrees to 40 degrees and back and repeats infinitely.
 ```
-c++
 #include <FNHR.h>
 #include <Servo.h>
 
@@ -85,6 +88,8 @@ void loop() {
 }
 -->
 
+# Bill of Materials
+
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Freenove Hexapod Robot Kit | Base kit for the Hexapod | $126.99 | <a href="https://store.freenove.com/products/fnk0031?variant=43034490110150"> Link </a> |
@@ -107,7 +112,6 @@ One of the best parts about Github is that you can view how other people set up 
 
 To watch the BSE tutorial on how to create a portfolio, click here. -->
 
-
 # Weevil Starter Project
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8W17v3A6jmY?si=norvQOObzwAQvrP6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -115,11 +119,13 @@ To watch the BSE tutorial on how to create a portfolio, click here. -->
 
 My starter project was the WeevilEye. The purpose of the project was the two LEDs that the weevils 'eyes' would light up if the photo sensor on the backend detected low enough light to send a signal to light the eyes up. It was composed of the mainboard, 2 220 resistors, 1 47k resistor, a battery casing, a disc battery, a photo sensor, and a transistor. This was the first project I soldered on so I was nervous I'd do it wrong. This did somewhat come true because the first time I built the project it didn't work. Not because of my bad solders but I swapped the places of two of my resistors stupidly. The position of the battery holder was extremely intrusive because it was soldered on the opposite of all of the other components that it would be extremely difficult to desolder all of it. So, my instructor and I just decided to restart on a new one and this time it worked. Overall I think this was a good beginner project and I feel more prepared to start my actual one.
 
+# Bill of Materials
+
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | SparkFun WeevilEye - Beginner Soldering Kit | All parts to create WeevilEye project | $11.25 | <a href="https://www.sparkfun.com/sparkfun-weevileye-beginner-soldering-kit.html"> Link </a> |
 
-
 # Schematics 
+
 ![Weevil Eye Schematic Image](Weevil_Eye-v16-1.png)
 [**SOURCE**](https://cdn.sparkfun.com/datasheets/Kits/Weevil_Eye-v16.pdf)
