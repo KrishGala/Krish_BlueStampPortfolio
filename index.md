@@ -31,7 +31,7 @@ work in progress: The Hexapod is a wirelessly controlled six-legged robot with d
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone -->
 
-# First Milestone
+## First Milestone
 
 <!-- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** -->
 
@@ -43,7 +43,7 @@ So far I've set up the Arduino program and the Processing program for the robot.
  <!-- # Code
 Here's where you'll put your code. The syntax below places it into a block of code. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize it to your project needs. -->
 
-# Code
+## Code
 
 This code allows testing individual servos.  In the setup the attach function just calls for a specific connection on the Arduino board so it knows where to run it. It then basically sweeps the servo from 20 degrees to 40 degrees and back and repeats infinitely.
 ```
@@ -88,7 +88,7 @@ void loop() {
 }
 -->
 
-# Bill of Materials
+## Bill of Materials
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
@@ -120,13 +120,13 @@ To watch the BSE tutorial on how to create a portfolio, click here. -->
 
 My starter project was the WeevilEye. The purpose of the project was the two LEDs that the weevils 'eyes' would light up if the photo sensor on the backend detected low enough light to send a signal to light the eyes up. It was composed of the mainboard, 2 220 resistors, 1 47k resistor, a battery casing, a disc battery, a photo sensor, and a transistor. This was the first project I soldered on so I was nervous I'd do it wrong. This did somewhat come true because the first time I built the project it didn't work. Not because of my bad solders but I swapped the places of two of my resistors stupidly. The position of the battery holder was extremely intrusive because it was soldered on the opposite of all of the other components that it would be extremely difficult to desolder all of it. So, my instructor and I just decided to restart on a new one and this time it worked. Overall I think this was a good beginner project and I feel more prepared to start my actual one.
 
-# Bill of Materials
+## Bill of Materials
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | SparkFun WeevilEye - Beginner Soldering Kit | Contains the parts to power, light up, and detect light around the build. | $11.25 | <a href="https://www.sparkfun.com/sparkfun-weevileye-beginner-soldering-kit.html"> Link </a> |
 
-# Schematics 
+## Schematics 
 
 ![Weevil Eye Schematic Image](Weevil_Eye-v16-1.png)
 [**SOURCE**](https://cdn.sparkfun.com/datasheets/Kits/Weevil_Eye-v16.pdf)
