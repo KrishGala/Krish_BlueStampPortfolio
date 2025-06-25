@@ -124,7 +124,7 @@ My starter project was the WeevilEye. The purpose of the project was the two LED
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| SparkFun WeevilEye - Beginner Soldering Kit | All parts to create WeevilEye project | $11.25 | <a href="https://www.sparkfun.com/sparkfun-weevileye-beginner-soldering-kit.html"> Link </a> |
+| SparkFun WeevilEye - Beginner Soldering Kit | Contains the parts to power, light up, and detect light around the build. | $11.25 | <a href="https://www.sparkfun.com/sparkfun-weevileye-beginner-soldering-kit.html"> Link </a> |
 
 # Schematics 
 
