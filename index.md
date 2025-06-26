@@ -17,9 +17,9 @@ work in progress: The Hexapod is a wirelessly controlled six-legged robot with d
 
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
-<!--For your final milestone, explain the outcome of your project. Key details to include are:
+<!--For your final milestone, explain the outcome of your project. Key details to include are:-->
 
-<!-- # Second Milestone -->
+# Second Milestone
 
 <!-- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** -->
 
@@ -30,6 +30,8 @@ work in progress: The Hexapod is a wirelessly controlled six-legged robot with d
 - What has been surprising about the project so far
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone -->
+
+My second milestone was definitely the lengthiest one as it had me build and calibrate the hexapod. Although it wasn't specifically hard it was to say lightly, a bit tedious. Every single part had lots of screws and the given screwdriver wasn't ergonomic for my hand. The screws were very tiny and a hassle to align but after a day and a half I completed it. Then I moved onto wiring the servo modules. The guide had me randomly assign them ports on the mainboard and align the legs of the hexapod off the random ports. Then you'd assign them the correct port. That didn't work for me so I started backwards the the correct ports for each of the servos and then aligned and rescrewed all of the parts of the legs. That worked for me. That was more or less all I had to do for the building portion of this project. Then I moved onto calibration which had me move the legs into a specific place for the robot to move properly as when building you can't get that precise. It wasn't that difficult but I had to redo it once because the first time it just didn't keep the calibrated state when trying to move. Though, on my second time it worked perfectly. Something surprising about the process so far was how the servos automatically zero'd on every startup and it didn't have me create that zero'd state. This was not really a feature as it was difficult to move the servos physically instead of just re-zero it in the correct spot. Going forward for my final milestone I'll be adding a wifi module which will allow me to move the robot without a wire into my laptop.
 
 ## First Milestone
 
