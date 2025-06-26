@@ -12,13 +12,15 @@ work in progress: The Hexapod is a wirelessly controlled six-legged robot with d
 <img src="KrishG.png" alt="Alt Text" width="50%" height="50%">
 
 
-<!--  # Final Milestone -->
+# Final Milestone
 
 <!-- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** -->
 
 <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
 
 <!--For your final milestone, explain the outcome of your project. Key details to include are:-->
+
+For the final milestone I added wireless controls in two forms. One through a phone app and one with a wireless controller. I first had to build the remote and I think the only major challenge I had was screwing in the case for the board. The screws had another level over the screws and I also needed a spacer between the board and the case. So I had to tape the screw into place with spare tape and turned it upside down. Then I aligned the spacer carefully and then went on the use a nut to screw it in. The wireless modules were pretty easy to put in and I had to download a premade script into the remote to work. Then when you turn it one you are able to move it, turn from side to side, and change the height of the body. The phone app used wifi to connect to the robot. It then uses tilt of the phone to move around. Overall this was the simplest milestone. Next step I first want to tie down some wires and then work on modifications. I'm unsure what I'll do but I'm thinking of adding a camera to map the surrounding of the robot.
 
 # Second Milestone
 
@@ -38,7 +40,7 @@ work in progress: The Hexapod is a wirelessly controlled six-legged robot with d
 My second milestone was definitely the lengthiest one as it had me build and calibrate the hexapod. Although it wasn't specifically hard it was to say lightly, a bit tedious. Every single part had lots of screws and the given screwdriver wasn't ergonomic for my hand. The screws were very tiny and a hassle to align but after a day and a half I completed it. Then I moved onto wiring the servo modules. The guide had me randomly assign them ports on the mainboard and align the legs of the hexapod off the random ports. Then you'd assign them the correct port. That didn't work for me so I started backwards the the correct ports for each of the servos and then aligned and rescrewed all of the parts of the legs. That worked for me. That was more or less all I had to do for the building portion of this project. Then I moved onto calibration which had me move the legs into a specific place for the robot to move properly as when building you can't get that precise. It wasn't that difficult but I had to redo it once because the first time it just didn't keep the calibrated state when trying to move. Though, on my second time it worked perfectly. Something surprising about the process so far was how the servos automatically zero'd on every startup and it didn't have me create that zero'd state. This was not really a feature as it was difficult to move the servos physically instead of just re-zero it in the correct spot. Going forward for my final milestone I'll be adding a wifi module which will allow me to move the robot without a wire into my laptop.
 
 
-## First Milestone
+# First Milestone
 
 <!-- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** -->
 
