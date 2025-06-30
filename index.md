@@ -138,7 +138,10 @@ My starter project was the WeevilEye. The purpose of the project was the two LED
 
 ![Weevil Eye Schematic Image](Weevil_Eye-v16-1.png)
 [**SOURCE**](https://cdn.sparkfun.com/datasheets/Kits/Weevil_Eye-v16.pdf)
+## Hexapod External View
 ![Hexapod Schematic Image](hexschem.png)
+## Remote Control External View
 ![Remote Schematic Image](remschem.png)
+## Remote Control Schematic
 ![Remote Wiring Schematic Image](remwire.png)
 [**SOURCE**](https://freenove.com/fnk0031)
