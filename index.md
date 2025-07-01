@@ -11,6 +11,8 @@ work in progress: The Hexapod is a wirelessly controlled six-legged robot with d
 
 <img src="KrishG.png" alt="Alt Text" width="50%" height="50%">
 
+# Modification Milestone One
+
 
 # Final Milestone
 
