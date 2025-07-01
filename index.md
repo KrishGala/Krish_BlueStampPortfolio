@@ -23,6 +23,8 @@ work in progress: The Hexapod is a wirelessly controlled six-legged robot with d
 
 <!--For your final milestone, explain the outcome of your project. Key details to include are:-->
 
+<img src="conect.png" alt="Alt Text" width="50%" height="50%">
+
 For the final milestone I added wireless controls in two forms. One through a phone app and one with a wireless controller. I first had to build the remote and I think the only major challenge I had was screwing in the case for the board. The screws had another level over the screws and I also needed a spacer between the board and the case. So I had to tape the screw into place with spare tape and turned it upside down. Then I aligned the spacer carefully and then went on the use a nut to screw it in. The wireless modules were pretty easy to put in and I had to download a premade script into the remote to work. Then when you turn it one you are able to move it, turn from side to side, and change the height of the body. The phone app used wifi to connect to the robot. It then uses tilt of the phone to move around. Overall this was the simplest milestone. Next step I first want to tie down some wires and then work on modifications. I'm unsure what I'll do but I'm thinking of adding a camera to map the surrounding of the robot.
 
 # Second Milestone
