@@ -1,8 +1,6 @@
 # Hexapod Robot
 
-<!--Replace this text with a brief description (2-3 sentences) of your project. This description should draw the reader in and make them interested in what you've built. You can include what the biggest challenges, takeaways, and triumphs from completing the project were. As you complete your portfolio, remember your audience is less familiar than you are with all that your project entails!
-
-work in progress: The Hexapod is a wirelessly controlled six-legged robot with dynamic movement. It can crawl in  any direction, twist its body and raise itself updown with a remote control. Despite its hardships while building the final project turned out well with its modifications such as the custom made battery holder aswell as the pincers on the front end of the Hexapod.-->
+The Hexapod is a wirelessly controlled six-legged robot with dynamic movement. It can crawl in  any direction, twist its body and raise itself updown with a remote control. Despite its hardships while building the final project turned out well with its modifications such as the custom made battery holder aswell as the pincers on the front end of the Hexapod.
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
