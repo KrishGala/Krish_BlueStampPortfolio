@@ -10,6 +10,7 @@ The Hexapod is a wirelessly controlled six-legged robot with dynamic movement. I
 
 # Modification Milestone One
 
+(Everything in Millimeters)
 <img src="BatteryHolder.png" alt="Alt Text" width="100%" height="100%">
 
 # Final Milestone
