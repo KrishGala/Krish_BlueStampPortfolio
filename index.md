@@ -8,12 +8,19 @@ The Hexapod is a wirelessly controlled six-legged robot with dynamic movement. I
 
 <img src="KrishG.png" alt="Alt Text" width="50%" height="50%">
 
-# Modification Milestone One
+# Modification Milestone
+
+## Battery Holder
 
 (Everything in Millimeters)
 <img src="BatteryHolder.png" alt="Alt Text" width="100%" height="50%">
+Drawing of the Model in Fusion 360
+
 <img src="bH1.png" alt="no work idiot" width="100%" height="50%">
+Image of Battery Holder
+
 <img src="bH2.png" alt="goober" width="100%" height="50%">
+Image of Battery Holder
 
 # Final Milestone
 
@@ -24,6 +31,7 @@ The Hexapod is a wirelessly controlled six-legged robot with dynamic movement. I
 <!--For your final milestone, explain the outcome of your project. Key details to include are:-->
 
 <img src="conect.png" alt="Alt Text" width="50%" height="50%">
+Image of the Two Wireless Receivers on the Hexapod
 
 ### Summary
 
@@ -46,7 +54,9 @@ I think the only major challenge I had was screwing in the case for the board. T
 - What needs to be completed before your final milestone -->
 
 <img src="calibration.png" alt="Alt Text" width="50%" height="50%">
+Image of the Calibration Sheet
 <img src="hexal.png" alt="Alt Text" width="50%" height="50%">
+Image of Fully Calibrated Hexapod LEgs
 
 ### Summary
 
@@ -147,7 +157,10 @@ To watch the BSE tutorial on how to create a portfolio, click here. -->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8W17v3A6jmY?si=norvQOObzwAQvrP6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<img src="starter1.png" alt="Alt Text" width="25%" height="25%"> <img src="starter2.png" alt="Alt Text" width="25%" height="25%">
+<img src="starter1.png" alt="Alt Text" width="25%" height="25%">
+Image of Weevil Robot for Scale
+<img src="starter2.png" alt="Alt Text" width="25%" height="25%">
+Image of Weevil Robot fully Built
 
 ### Sumary
 
