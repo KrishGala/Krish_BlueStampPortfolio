@@ -37,7 +37,7 @@ This was actually the second print I did for the battery holder because of an is
 
 (Everything in Millimeters)
 
-<img src="clawparts.png" alt="Alt Text" width="50%" height="50%">
+<img src="clawparts.png" alt="Alt Text" width="100%" height="100%">
 
 Drawing of the components of the claw in Fusion 360
 
