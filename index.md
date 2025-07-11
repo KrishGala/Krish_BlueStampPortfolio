@@ -19,9 +19,11 @@ The Hexapod is a wirelessly controlled six-legged robot with dynamic movement. I
 Drawing of the Model in Fusion 360
 
 <img src="bH1.png" alt="no work idiot" width="50%" height="50%">
+
 Image of Battery Holder
 
 <img src="bH2.png" alt="goober" width="50%" height="50%">
+
 Image of Battery Holder
 
 ### Summary
@@ -34,7 +36,9 @@ This was actually the second print I did for the battery holder because of an is
 ## Claw
 
 (Everything in Millimeters)
+
 <img src="clawparts.png" alt="Alt Text" width="50%" height="50%">
+
 Drawing of the components of the claw in Fusion 360
 
 # Final Milestone
@@ -46,6 +50,7 @@ Drawing of the components of the claw in Fusion 360
 <!--For your final milestone, explain the outcome of your project. Key details to include are:-->
 
 <img src="conect.png" alt="Alt Text" width="50%" height="50%">
+
 Image of the Two Wireless Receivers on the Hexapod
 
 ### Summary
@@ -69,8 +74,11 @@ I think the only major challenge I had was screwing in the case for the board. T
 - What needs to be completed before your final milestone -->
 
 <img src="calibration.png" alt="Alt Text" width="50%" height="50%">
+
 Image of the Calibration Sheet
+
 <img src="hexal.png" alt="Alt Text" width="50%" height="50%">
+
 Image of Fully Calibrated Hexapod LEgs
 
 ### Summary
