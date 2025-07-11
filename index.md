@@ -15,6 +15,7 @@ The Hexapod is a wirelessly controlled six-legged robot with dynamic movement. I
 (Everything in Millimeters)
 
 <img src="BatteryHolder.png" alt="Alt Text" width="50%" height="50%">
+
 Drawing of the Model in Fusion 360
 
 <img src="bH1.png" alt="no work idiot" width="50%" height="50%">
