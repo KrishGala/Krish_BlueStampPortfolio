@@ -22,6 +22,13 @@ Image of Battery Holder
 <img src="bH2.png" alt="goober" width="100%" height="50%">
 Image of Battery Holder
 
+### Summary
+For the first minor modification I added a battery holder to my hexapod. This was just a simple box in modeled in fusion 360. It is attached with spare standoffs and screws. On top of the hexapod there are a few long oval shaped holes specifically for modification so I used four of those to attach the battery holder on top. Overall it was a simple modification though it did have some challenges.
+
+
+### Challenges
+This was actually the second print I did for the battery holder because of an issue on Fusion 360. When I first made the box I used the shell tool to hollow out the cube for the battery. I also used the offset tool in the sketch. These two actually overlapped themselves and the offset actually went inside the box making the dimensions smaller for the battery. I took precise dimensions for the battery so when this happened the battery did not fit. So I just remade it correctly using the shell tool and everything worked fine on the second print. Another minute challenge I had was with the screws and standoffs. The original ones I was going to use were not long enough to both go through the acryic part of the hexapod and have some space to screw into a standoff. This was an easy fix because all I did was just use a new standoff and screw.
+
 # Final Milestone
 
 <!-- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** -->
