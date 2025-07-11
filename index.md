@@ -31,6 +31,9 @@ This was actually the second print I did for the battery holder because of an is
 
 ## Claw
 
+(Everything in Millimeters)
+<img src="clawparts.png" alt="Alt Text" width="50%" height="50%">
+Drawing of the components of the claw in Fusion 360
 
 # Final Milestone
 
