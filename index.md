@@ -41,6 +41,18 @@ This was actually the second print I did for the battery holder because of an is
 
 Drawing of the components of the claw in Fusion 360
 
+Components Modeled Together in Fusion (Top)
+
+<img src="compo1.png" alt="Alt Text" width="75%" height="75%">
+
+Components Modeled Together in Fusion (Side)
+
+<img src="compo2.png" alt="Alt Text" width="100%" height="100%">
+
+Components Modeled Together in Fusion (Edge)
+
+<img src="compo3.png" alt="Alt Text" width="100%" height="100%">
+
 # Final Milestone
 
 <!-- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** -->
