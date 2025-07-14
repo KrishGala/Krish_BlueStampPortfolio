@@ -12,19 +12,19 @@ The Hexapod is a wirelessly controlled six-legged robot with dynamic movement. I
 
 ## Battery Holder
 
-(Everything in Millimeters)
+Drawing of the Model in Fusion 360
 
 <img src="BatteryHolder.png" alt="Alt Text" width="50%" height="50%">
 
-Drawing of the Model in Fusion 360
+<sub>(Everything in Millimeters)</sub>
+
+Image of Battery Holder
 
 <img src="bH1.png" alt="no work idiot" width="50%" height="50%">
 
 Image of Battery Holder
 
 <img src="bH2.png" alt="goober" width="50%" height="50%">
-
-Image of Battery Holder
 
 ### Summary
 For the first minor modification I added a battery holder to my hexapod. This was just a simple box in modeled in fusion 360. It is attached with spare standoffs and screws. On top of the hexapod there are a few long oval shaped holes specifically for modification so I used four of those to attach the battery holder on top. Overall it was a simple modification though it did have some challenges.
@@ -35,11 +35,11 @@ This was actually the second print I did for the battery holder because of an is
 
 ## Claw
 
-(Everything in Millimeters)
+Drawing of the components of the claw in Fusion 360
 
 <img src="clawparts.png" alt="Alt Text" width="100%" height="100%">
 
-Drawing of the components of the claw in Fusion 360
+<sub>(Everything in Millimeters)</sub>
 
 Components Modeled Together in Fusion (Top)
 
@@ -47,11 +47,11 @@ Components Modeled Together in Fusion (Top)
 
 Components Modeled Together in Fusion (Side)
 
-<img src="compo2.png" alt="Alt Text" width="100%" height="100%">
+<img src="compo3.png" alt="Alt Text" width="100%" height="100%">
 
 Components Modeled Together in Fusion (Edge)
 
-<img src="compo3.png" alt="Alt Text" width="100%" height="100%">
+<img src="compo2.png" alt="Alt Text" width="100%" height="100%">
 
 # Final Milestone
 
@@ -61,9 +61,9 @@ Components Modeled Together in Fusion (Edge)
 
 <!--For your final milestone, explain the outcome of your project. Key details to include are:-->
 
-<img src="conect.png" alt="Alt Text" width="50%" height="50%">
-
 Image of the Two Wireless Receivers on the Hexapod
+
+<img src="conect.png" alt="Alt Text" width="50%" height="50%">
 
 ### Summary
 
@@ -85,13 +85,13 @@ I think the only major challenge I had was screwing in the case for the board. T
 - Previous challenges you faced that you overcame
 - What needs to be completed before your final milestone -->
 
-<img src="calibration.png" alt="Alt Text" width="50%" height="50%">
-
 Image of the Calibration Sheet
 
-<img src="hexal.png" alt="Alt Text" width="50%" height="50%">
+<img src="calibration.png" alt="Alt Text" width="50%" height="50%">
 
-Image of Fully Calibrated Hexapod LEgs
+Image of Fully Calibrated Hexapod Legs
+
+<img src="hexal.png" alt="Alt Text" width="50%" height="50%">
 
 ### Summary
 
@@ -170,6 +170,16 @@ void loop() {
 |:--:|:--:|:--:|:--:|
 | Freenove Hexapod Robot Kit | Base kit for the Hexapod | $126.99 | <a href="https://store.freenove.com/products/fnk0031?variant=43034490110150"> Link </a> |
 
+## Schematics
+
+## Hexapod External View
+![Hexapod Schematic Image](hexschem.png)
+## Remote Control External View
+![Remote Schematic Image](remschem.png)
+## Remote Control Schematic
+![Remote Wiring Schematic Image](remwire.png)
+[**SOURCE**](https://freenove.com/fnk0031)
+
 <!-- # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
 Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
@@ -192,10 +202,14 @@ To watch the BSE tutorial on how to create a portfolio, click here. -->
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/8W17v3A6jmY?si=norvQOObzwAQvrP6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
-<img src="starter1.png" alt="Alt Text" width="25%" height="25%">
 Image of Weevil Robot for Scale
-<img src="starter2.png" alt="Alt Text" width="25%" height="25%">
-Image of Weevil Robot fully Built
+
+<img src="starter1.png" alt="Alt Text" width="50%" height="50%">
+
+Image of Weevil Robot Fully Built
+
+<img src="starter2.png" alt="Alt Text" width="50%" height="50%">
+
 
 ### Sumary
 
@@ -215,10 +229,3 @@ This did somewhat come true because the first time I built the project it didn't
 
 ![Weevil Eye Schematic Image](Weevil_Eye-v16-1.png)
 [**SOURCE**](https://cdn.sparkfun.com/datasheets/Kits/Weevil_Eye-v16.pdf)
-## Hexapod External View
-![Hexapod Schematic Image](hexschem.png)
-## Remote Control External View
-![Remote Schematic Image](remschem.png)
-## Remote Control Schematic
-![Remote Wiring Schematic Image](remwire.png)
-[**SOURCE**](https://freenove.com/fnk0031)
