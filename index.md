@@ -164,6 +164,10 @@ void loop() {
 }
 -->
 
+## Hexapod Code Download
+<a href="ProcessingApp.zip" download>Download Zip</a>
+in Processing Development Environment
+
 ## Bill of Materials
 
 | **Part** | **Note** | **Price** | **Link** |
