@@ -10,6 +10,8 @@ The Hexapod is a wirelessly controlled six-legged robot with dynamic movement. I
 
 # Modification Milestone
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/lpSDtB5PY7w?si=JcC3wF_d9Qgiiqeq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 ## Battery Holder
 
 Drawing of the Model in Fusion 360
@@ -35,23 +37,18 @@ This was actually the second print I did for the battery holder because of an is
 
 ## Claw
 
-Drawing of the components of the claw in Fusion 360
+### Overall Summary
+For my modification milestone I've added a two-part claw system. One part of the system allows the claw to move forwards and backward. The second part of the claw system is the actual claw that clamps onto objects. All of the parts were 3d printed and attached to the hexapod. It works via a remote through microcontrollers. 
 
-<img src="clawparts.png" alt="Alt Text" width="100%" height="100%">
+### Interaction / Technical Summary
+They interact through 2 ESP-32s which are microcontrollers. This specific microcontroller was chosen for its built-in wifi module. The two ESPs have unique “MAC” addresses which are essentially unique thumbprints on the network. It allows the ESP to locate and communicate to a specific other ESP. This is via “ESP NOW” which allows the code to be transported in between the two modules, the other code in the radios were basic. All it was saying that a specific button was tied to a specific direction of a servo four times over. With the two connected ESPs I’ve breadboard 4 buttons onto the remote ESP. Each button controls a servo either to move positively or negatively allowing for full movement of protraction and retraction for both parts of the claw. The breadboarding on the Hexapod has two servos connected to the ESP. Battery power on each of the microcontrollers is another key point of my design as they don’t have a unique power source. The one attached to the hexapod was a simple configuration as the hexapod had a spare 5v slot open that allows for the claw system to be powered. While on the remote it was different as there was not a slot open for power. So I used a buck converter to split power directly from the battery on the remote. A buck converter efficiently lowers the voltage to make sure the least amount of battery is lost. With the buck converter I was able to manage the power from the battery onto the original hexapod remote and onto the one I fabricated.
 
-<sub>(Everything in Millimeters)</sub>
+### Desgin / Model Summary
+Moving onto the actual design of the claw system it has two gear interactions. The first one is a “rack and pinion” gear mechanism. It has one standard toothed gear and one that lays flat. This allows for rotational movement to turn into horizontal movement. This is powered by one servo. The other servo powers the claw; it has two gears in tangent. One of the gears is powered while the other one is freestanding against it. Two beams are attached to the gear and the actual curved part of the claw is attached to the beam. The two parts of the claw system are screwed in together. The entire claw system is attached via a 3d printed clamp at the bottom of the entire system that latches onto the bottom of the hexapod. 
 
-Components Modeled Together in Fusion (Top)
+### Challenges
 
-<img src="compo1.png" alt="Alt Text" width="75%" height="75%">
-
-Components Modeled Together in Fusion (Side)
-
-<img src="compo3.png" alt="Alt Text" width="100%" height="100%">
-
-Components Modeled Together in Fusion (Edge)
-
-<img src="compo2.png" alt="Alt Text" width="100%" height="100%">
+There were a multitude of challenges across the design and implementation of the claw system. To start off the process I modeled the actual claw system. I created the rack and pinion system successfully but the claw system was another story. The first time I modeled the claws I made the claws too small and the hole for the freestanding claw too tight. After multiple iterations I eventually enlarged the claw in and split it into multiple parts instead of one large extrusion attached to the gear. Moving onto the technical parts, the ESPs were not the first I used. Before attaching the ESPs to a breadboard I had them freestanding. This was a grave mistake because while I was coding for the microcontrollers they likely shorted on the metal on my laptop. This caused the ESP 32 to short out and not power on / or allow for code to run on it. Another challenge was the attachment of the system onto the hexapod. Over time the latch onto the hexapod wore down and the edges and joints of the print were starting to bend. I eventually had to use more permanent measures than pressfitting the system and hot glued it down along with some tape. Another challenge was that the gear system was too topheavy, the end of the rack on the rack and pinion system was leaving off the ground when I powered the servo. To fix this I added a styrofoam brace on top of the back end of the rack that allowed for the rack to move soundly across its base.
 
 # Final Milestone
 
