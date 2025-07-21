@@ -37,6 +37,11 @@ This was actually the second print I did for the battery holder because of an is
 
 ## Claw
 
+<img src="IMG_1449.png" alt="Alt Text" width="50%" height="50%">
+<img src="IMG_1450.png" alt="Alt Text" width="50%" height="50%">
+<img src="IMG_1451.png" alt="Alt Text" width="50%" height="50%">
+<img src="IMG_1452.png" alt="Alt Text" width="50%" height="50%">
+
 ### Overall Summary
 For my modification milestone I've added a two-part claw system. One part of the system allows the claw to move forwards and backward. The second part of the claw system is the actual claw that clamps onto objects. All of the parts were 3d printed and attached to the hexapod. It works via a remote through microcontrollers. 
 
