@@ -37,19 +37,30 @@ This was actually the second print I did for the battery holder because of an is
 
 ## Claw
 
-<img src="IMG_1449.png" alt="Alt Text" width="50%" height="50%">
-<img src="IMG_1450.png" alt="Alt Text" width="50%" height="50%">
-<img src="IMG_1451.png" alt="Alt Text" width="50%" height="50%">
-<img src="IMG_1452.png" alt="Alt Text" width="50%" height="50%">
-
 ### Overall Summary
 For my modification milestone I've added a two-part claw system. One part of the system allows the claw to move forwards and backward. The second part of the claw system is the actual claw that clamps onto objects. All of the parts were 3d printed and attached to the hexapod. It works via a remote through microcontrollers. 
+
+Full Photo of Hexapod
+
+<img src="Screenshot 2025-07-21 100909.png" alt="Alt Text" width="50%" height="50%">
 
 ### Interaction / Technical Summary
 They interact through 2 ESP-32s which are microcontrollers. This specific microcontroller was chosen for its built-in wifi module. The two ESPs have unique “MAC” addresses which are essentially unique thumbprints on the network. It allows the ESP to locate and communicate to a specific other ESP. This is via “ESP NOW” which allows the code to be transported in between the two modules, the other code in the radios were basic. All it was saying that a specific button was tied to a specific direction of a servo four times over. With the two connected ESPs I’ve breadboard 4 buttons onto the remote ESP. Each button controls a servo either to move positively or negatively allowing for full movement of protraction and retraction for both parts of the claw. The breadboarding on the Hexapod has two servos connected to the ESP. Battery power on each of the microcontrollers is another key point of my design as they don’t have a unique power source. The one attached to the hexapod was a simple configuration as the hexapod had a spare 5v slot open that allows for the claw system to be powered. While on the remote it was different as there was not a slot open for power. So I used a buck converter to split power directly from the battery on the remote. A buck converter efficiently lowers the voltage to make sure the least amount of battery is lost. With the buck converter I was able to manage the power from the battery onto the original hexapod remote and onto the one I fabricated.
 
+Image of Remote
+
+<img src="IMG_1451.png" alt="Alt Text" width="50%" height="50%">
+
 ### Desgin / Model Summary
 Moving onto the actual design of the claw system it has two gear interactions. The first one is a “rack and pinion” gear mechanism. It has one standard toothed gear and one that lays flat. This allows for rotational movement to turn into horizontal movement. This is powered by one servo. The other servo powers the claw; it has two gears in tangent. One of the gears is powered while the other one is freestanding against it. Two beams are attached to the gear and the actual curved part of the claw is attached to the beam. The two parts of the claw system are screwed in together. The entire claw system is attached via a 3d printed clamp at the bottom of the entire system that latches onto the bottom of the hexapod. 
+
+Image of Claw Mechanism
+
+<img src="IMG_1449.png" alt="Alt Text" width="50%" height="50%">
+
+Image of Rack and Pinion Mechanism
+
+<img src="IMG_1452.png" alt="Alt Text" width="50%" height="50%">
 
 ### Challenges
 
