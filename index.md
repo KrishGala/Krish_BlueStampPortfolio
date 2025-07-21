@@ -50,6 +50,152 @@ Moving onto the actual design of the claw system it has two gear interactions. T
 
 There were a multitude of challenges across the design and implementation of the claw system. To start off the process I modeled the actual claw system. I created the rack and pinion system successfully but the claw system was another story. The first time I modeled the claws I made the claws too small and the hole for the freestanding claw too tight. After multiple iterations I eventually enlarged the claw in and split it into multiple parts instead of one large extrusion attached to the gear. Moving onto the technical parts, the ESPs were not the first I used. Before attaching the ESPs to a breadboard I had them freestanding. This was a grave mistake because while I was coding for the microcontrollers they likely shorted on the metal on my laptop. This caused the ESP 32 to short out and not power on / or allow for code to run on it. Another challenge was the attachment of the system onto the hexapod. Over time the latch onto the hexapod wore down and the edges and joints of the print were starting to bend. I eventually had to use more permanent measures than pressfitting the system and hot glued it down along with some tape. Another challenge was that the gear system was too topheavy, the end of the rack on the rack and pinion system was leaving off the ground when I powered the servo. To fix this I added a styrofoam brace on top of the back end of the rack that allowed for the rack to move soundly across its base.
 
+## Code
+
+### Remote ESP-32
+This code sends the input from the buttons onto the ESP-32 attached to the claw
+```
+#include <esp_now.h>
+#include <WiFi.h>
+
+// Define button pins
+#define BUTTON1 14
+#define BUTTON2 27
+#define BUTTON3 26
+#define BUTTON4 33
+
+uint8_t broadcastAddress[] = { 0x44, 0x1D, 0x64, 0xF8, 0xF8, 0xCC };
+
+typedef struct struct_message {
+  int command;  // 1–4 for different button actions
+} struct_message;
+
+struct_message myData;
+esp_now_peer_info_t peerInfo;
+
+// Send status callback
+void OnDataSent(const uint8_t *mac_addr, esp_now_send_status_t status) {
+  Serial.print("\r\nLast Packet Send Status:\t");
+  Serial.println(status == ESP_NOW_SEND_SUCCESS ? "Delivery Success" : "Delivery Fail");
+}
+
+void setup() {
+  Serial.begin(115200);
+
+  // Set button pins as input
+  pinMode(BUTTON1, INPUT_PULLUP);
+  pinMode(BUTTON2, INPUT_PULLUP);
+  pinMode(BUTTON3, INPUT_PULLUP);
+  pinMode(BUTTON4, INPUT_PULLUP);
+
+  WiFi.mode(WIFI_STA);
+
+  if (esp_now_init() != ESP_OK) {
+    Serial.println("Error initializing ESP-NOW");
+    return;
+  }
+
+  esp_now_register_send_cb(OnDataSent);
+
+  memset(&peerInfo, 0, sizeof(peerInfo));
+  memcpy(peerInfo.peer_addr, broadcastAddress, 6);
+  peerInfo.channel = 0;
+  peerInfo.encrypt = false;
+
+  if (esp_now_add_peer(&peerInfo) != ESP_OK) {
+    Serial.println("Failed to add peer");
+    return;
+  }
+}
+
+void loop() {
+  int buttonState = 0;
+
+  if (digitalRead(BUTTON1) == LOW) buttonState = 1;       // Servo 1 Left
+  else if (digitalRead(BUTTON2) == LOW) buttonState = 2;  // Servo 1 Right
+  else if (digitalRead(BUTTON3) == LOW) buttonState = 3;  // Servo 2 Left
+  else if (digitalRead(BUTTON4) == LOW) buttonState = 4;  // Servo 2 Right
+
+  if (buttonState != 0) {
+    myData.command = buttonState;
+    esp_now_send(broadcastAddress, (uint8_t *)&myData, sizeof(myData));
+    Serial.print("Sent command: ");
+    Serial.println(buttonState);
+    delay(300);  // debounce
+  }
+
+  delay(20);
+}
+```
+
+### Claw ESP-32
+This code receives the input from the buttons onto the ESP-32 and performs the input.
+```
+#include <esp_now.h>
+#include <WiFi.h>
+#include <ESP32Servo.h>
+
+typedef struct struct_message {
+  int command;  // 1–4 for different button actions
+} struct_message;
+
+struct_message myData;
+
+Servo servo1;
+Servo servo2;
+
+int pos1 = 90;
+int pos2 = 90;
+
+void OnDataRecv(const esp_now_recv_info_t *recv_info, const uint8_t *incomingData, int len) {
+  memcpy(&myData, incomingData, sizeof(myData));
+  Serial.print("Command received: ");
+  Serial.println(myData.command);
+
+  switch (myData.command) {
+    case 1: // Servo Claw In
+      pos1 = constrain(pos1 - 10, 0, 180);
+      servo1.write(pos1);
+      break;
+    case 2: // Servo Claw Out
+      pos1 = constrain(pos1 + 10, 0, 180);
+      servo1.write(pos1);
+      break;
+    case 3: // Servo Rack In
+      pos2 = constrain(pos2 - 10, 0, 180);
+      servo2.write(pos2);
+      break;
+    case 4: // Servo Rack Out
+      pos2 = constrain(pos2 + 10, 0, 180);
+      servo2.write(pos2);
+      break;
+  }
+}
+
+void setup() {
+  Serial.begin(115200);
+  WiFi.mode(WIFI_STA);
+
+  servo1.attach(13);
+  servo2.attach(12);
+
+  servo1.write(pos1);
+  servo2.write(pos2);
+
+  if (esp_now_init() != ESP_OK) {
+    Serial.println("Error initializing ESP-NOW");
+    return;
+  }
+
+  esp_now_register_recv_cb(OnDataRecv);
+}
+
+void loop() {
+
+}
+```
+
+
 # Final Milestone
 
 <!-- **Don't forget to replace the text below with the embedding for your milestone video. Go to Youtube, click Share -> Embed, and copy and paste the code to replace what's below.** -->
