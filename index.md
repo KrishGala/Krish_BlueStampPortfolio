@@ -72,6 +72,7 @@ Images of 3d Modeled Claw Parts
 <img src="mod2.png" alt="Alt Text" width="25%" height="25%">
 <img src="mod3.png" alt="Alt Text" width="25%" height="25%">
 <img src="mod4.png" alt="Alt Text" width="25%" height="25%">
+<img src="mod5.png" alt="Alt Text" width="25%" height="25%">
 
 
 Wiring Schematic of Remote
