@@ -66,6 +66,14 @@ Image of Rack and Pinion Mechanism
 
 There were a multitude of challenges across the design and implementation of the claw system. To start off the process I modeled the actual claw system. I created the rack and pinion system successfully but the claw system was another story. The first time I modeled the claws I made the claws too small and the hole for the freestanding claw too tight. After multiple iterations I eventually enlarged the claw in and split it into multiple parts instead of one large extrusion attached to the gear. Moving onto the technical parts, the ESPs were not the first I used. Before attaching the ESPs to a breadboard I had them freestanding. This was a grave mistake because while I was coding for the microcontrollers they likely shorted on the metal on my laptop. This caused the ESP 32 to short out and not power on / or allow for code to run on it. Another challenge was the attachment of the system onto the hexapod. Over time the latch onto the hexapod wore down and the edges and joints of the print were starting to bend. I eventually had to use more permanent measures than pressfitting the system and hot glued it down along with some tape. Another challenge was that the gear system was too topheavy, the end of the rack on the rack and pinion system was leaving off the ground when I powered the servo. To fix this I added a styrofoam brace on top of the back end of the rack that allowed for the rack to move soundly across its base.
 
+Images of 3d Modeled Claw Parts
+
+<img src="mod1.png" alt="Alt Text" width="25%" height="25%">
+<img src="mod2.png" alt="Alt Text" width="25%" height="25%">
+<img src="mod3.png" alt="Alt Text" width="25%" height="25%">
+<img src="mod4.png" alt="Alt Text" width="25%" height="25%">
+
+
 Wiring Schematic of Remote
 
 <img src="RemSch.png" alt="Alt Text" width="50%" height="50%">
