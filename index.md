@@ -332,6 +332,16 @@ in Processing Development Environment
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Freenove Hexapod Robot Kit | Base kit for the Hexapod | $126.99 | <a href="https://store.freenove.com/products/fnk0031?variant=43034490110150"> Link </a> |
+| Wires | Connection between all parts | $6.98 | <a href="https://a.co/d/dN75fmB"> Link </a> |
+| Breadboard Jumper Wires | Connection between all parts on breadboard (smaller) | $12.88 | <a href="https://a.co/d/7qazyES"> Link </a> |
+| ESP-32 Devkit V1 x2 | Connection between all parts on breadboard (smaller) | $8.09 x2 | <a href="https://www.digikey.com/short/jfvbnzbn"> Link </a> |
+| M3 Screwkit | Screws between parts such as attachment of Battery Holder and Parts of Claw System | $8.99 | <a href="https://a.co/d/1LfDGjP"> Link </a> |
+| MG90S 9g Servo | Servos to power Claw System | $8.88 | <a href="https://a.co/d/gpatAwY"> Link </a> |
+| 7.2V Battery Pack | Power to hexapod and Claw System | $21.99 | <a href="https://a.co/d/d4JsQca"> Link </a> |
+| Buck Converter | To manage voltage for the 2 parts of the remote | $7.99 | <a href="https://a.co/d/4hSDY0T"> Link </a> |
+| Breadboards | Large Breadboard for Hexapod and Small Breadboard for Remote | $5.99 | <a href="https://a.co/d/cyosirK"> Link </a> |
+| Buttons | To control claw servos | $5.99 | <a href="https://a.co/d/fkq63wj"> Link </a> |
+| 9v Battery | Power remote | $9.79 | <a href="https://a.co/d/dGDbJKI"> Link </a> |
 
 ## Schematics
 
